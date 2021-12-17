@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background:lightcyan;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: center;
+    color:black;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 130px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10x;
+    padding: 12px 0;
+    color: black;
+    border: .5px solid black;
+}
+
+#sideNav {
+    border: .5px solid black;
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:lightskyblue;
+    z-index: 2;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#feature {
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+}
+
+#middle-text p{
+    font-style: italic;
+    font-weight: 50;
+    margin: 70px;
+    padding: 70px;
+}
+
+#What-text{
+    text-align: center;
+}
+
+#service{
+    width: 100%;
+    padding: 70px 0;
+    background:grey;
+}
+
