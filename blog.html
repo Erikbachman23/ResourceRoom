@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,100;1,100;1,400&display=swap" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    <style>
+        *, *::before, ::after {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+
+        .card{
+            background: white;
+            padding: 1rem;
+            border: 1px solid grey;
+            border-radius: .25rem;
+            max-width: 600px;
+        }
+
+        .card.card-shadow{
+            border: none;
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2);
+        }
+
+        .card-header {
+            font-size: 1.5rem;
+            margin-bottom: .5rem;
+        }
+
+        .card-body {
+            font-size: .9rem;
+        }
+
+        .card-footer{
+            margin-top: 1rem;
+        }
+
+        .btn {
+            background: hsl(200, 50%, 50%);
+            color: white;
+            border: none;
+            font-size: 1rem;
+            padding: .5em .75em;
+            border-radius: .25em;
+            cursor: pointer;
+        }
+    </style>
+</body>
+<div class="card-grid"></div>
+<div class="card">
+    <div class="card-body"></div>
+    <div class="card-header">Update 0.1 New Version</div>
+    Update 0.1(New Resource Room)
+    <p>-New Website Design</p>
+    <p>-New Features</p>
+    <p>-New Mechanics</p>
+     <p>Comments: Welcome to the New Version of Resource Room there has been 
+         a lot of work going onto this. I did a new remodel of the website because 
+         the old one didn't look good.
+<div class="card-footer">
+    <button class="btn">Details</button>
+</div>
+</div>
+<div class="card card-shadow">
+    <div class="card-body"></div>
+    <div class="card-header">Update 0.1 New Version</div>
+    Resource Room Q.A
+    <p>Q1.Is a New Resource Room Going to come out</p>
+    <p>A1.Yes, We have considered of working on a new Thing which is called Resource Room elite which is where you can find RECOMMENDED RESOURCES.</p>
+    <p>Q2.Whats Next for Resource Room</p>
+    <p>A2. Work On Resource Room Elite.</p>
+    <p>Q3. How Many Resources Do you think will be in Resource Room</p>
+    <p>A3. Not many but like around 30-40+. Its going to take a long time so probably only a bit though, a bit after Realese you will be finding more Resources.</p>
+<div class="card-footer">
+    <button class="btn">Details</button>
+</div>
+</div>
+</div>
+</html>
